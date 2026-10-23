@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profil dan Struktur Organisasi | Alpha Canis Majoris</title>
+<style>
+:root{--n:#0b1830;--g:#e8bd69;--c:#f5f3ed;--t:#27354b}*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;color:var(--t);line-height:1.7}a{text-decoration:none;color:inherit}header{background:var(--n);color:white;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;gap:20px;position:sticky;top:0;z-index:5}.brand{font-weight:bold;color:var(--g)}small{display:block;color:white;font-size:10px}.banner{padding:65px 7%;background:linear-gradient(110deg,var(--n),#244d78);color:white}.banner h1{font-size:45px}.banner p{color:#e4eaf2}.eyebrow{color:#b5893b;font-size:12px;letter-spacing:2px;font-weight:bold}section{padding:55px 7%}.light{background:var(--c)}.wrap{max-width:1150px;margin:auto}h1,h2,h3{line-height:1.3}h2{font-size:32px;color:var(--n);margin:12px 0}h3{color:var(--n);margin-bottom:8px}p{margin:9px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.card{background:white;border:1px solid #e1e5eb;border-radius:9px;padding:22px}.icon{font-size:28px}.notice{padding:15px;background:#fff4dd;border-left:4px solid var(--g);margin:20px 0;font-size:13px}.toolbar{display:flex;gap:10px;margin:20px 0}.toolbar input,.toolbar select{padding:12px;border:1px solid #ccd4df;border-radius:5px}.toolbar input{flex:1;min-width:0}.person{display:flex;gap:12px}.avatar{min-width:48px;height:48px;border-radius:50%;background:var(--n);color:var(--g);display:grid;place-items:center;font-weight:bold}.role{font-size:12px;color:#98712e;font-weight:bold}.person p{font-size:13px;color:#68768a}footer{background:#071225;color:white;padding:30px 7%}footer a{color:var(--g);margin:8px 12px 0 0;display:inline-block}.top{display:none;position:fixed;bottom:20px;right:20px;background:var(--g);border:0;border-radius:50%;padding:12px;cursor:pointer}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.grid{grid-template-columns:1fr}.toolbar{flex-direction:column}.banner h1{font-size:36px}}
+
+.card[data-detail]{cursor:pointer;transition:transform .2s,box-shadow .2s}.card[data-detail]:hover{transform:translateY(-4px);box-shadow:0 12px 28px #0b183018}.detail-hint{font-size:12px;color:#98712e;margin-top:12px;font-weight:bold}
+.modal{display:none;position:fixed;inset:0;background:#061326b8;z-index:20;padding:20px;align-items:center;justify-content:center}.modal.show{display:flex}.modal-box{background:white;border-radius:16px;max-width:700px;width:100%;max-height:85vh;overflow:auto;padding:30px;position:relative;box-shadow:0 20px 70px #0004}.modal-box h2{margin:8px 35px 15px 0}.modal-box p{margin:12px 0}.modal-close{position:absolute;right:18px;top:14px;border:0;background:#eef2f7;border-radius:50%;width:38px;height:38px;font-size:23px;cursor:pointer;color:var(--n)}.modal-tag{color:#98712e;font-weight:bold;letter-spacing:1px;font-size:12px}
+@media(max-width:520px){.modal-box{padding:22px}.modal-box h2{font-size:25px}}
+
+/* Struktur organisasi sekolah */
+.org{max-width:850px;margin:25px auto;text-align:center}
+.box{padding:18px;background:white;border:1px solid #dce3ec;border-radius:8px;font-weight:bold;margin:auto;max-width:600px}
+.box small{display:block;font-size:12px;line-height:1.5;margin-top:4px}
+.dark{background:var(--n);color:white}
+.gold{background:#f8edda}
+.arrow{color:#b18a42;font-size:25px;line-height:1.5}
+.org .row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:12px 0}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}
+.cards .card{padding:22px;background:white;border:1px solid #e0e5ec;border-radius:9px}
+.cards .card p{font-size:14px}
+@media(max-width:800px){.org .row,.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.org .row,.cards{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<header><a class="brand" href="index.html">ACM | ALPHA CANIS MAJORIS<small>INTERNATIONAL JUNIOR HIGH SCHOOL</small></a></header>
+<div class="banner"><span class="eyebrow">ABOUT OUR SCHOOL</span><h1>Profil Sekolah</h1><p>Mengenal sejarah, visi, misi, guru, karyawan, dan kehidupan siswa.</p></div>
+<section><div class="wrap"><span class="eyebrow">OUR STORY</span><h2>Pendidikan untuk Masa Depan</h2><p>Alpha Canis Majoris International Junior High School merupakan konsep sekolah menengah pertama berorientasi internasional yang mengembangkan kemampuan akademik, karakter, kreativitas, dan wawasan global.</p><p>Pembelajaran dirancang untuk menumbuhkan rasa ingin tahu, literasi, numerasi, sains, teknologi, seni, olahraga, serta keterampilan sosial. Siswa didorong untuk berdiskusi, menghargai perbedaan, dan bertanggung jawab terhadap proses belajarnya.</p></div></section>
+<section class="light"><div class="wrap"><h2>Visi dan Misi</h2><div class="grid"><article class="card"><div class="icon">🌟</div><h3>Visi</h3><p>Menjadi komunitas pendidikan yang unggul, berkarakter, inovatif, berwawasan global, dan peduli terhadap masyarakat serta lingkungan.</p></article><article class="card"><div class="icon">🧭</div><h3>Misi</h3><p>Menyelenggarakan pembelajaran berkualitas, mengembangkan sains dan teknologi, menumbuhkan integritas, serta mendukung minat dan bakat siswa.</p></article></div></div></section>
+<section><div class="wrap"><h2>Guru dan Karyawan</h2><p>Nama-nama berikut adalah contoh fiktif. Ganti dengan data resmi.</p><div class="toolbar"><input id="search" placeholder="Cari nama atau jabatan..."><select id="filter"><option value="semua">Semua staf</option><option value="pimpinan">Pimpinan</option><option value="guru">Guru</option><option value="layanan">Karyawan</option></select></div><div class="grid" id="people"></div></div></section>
+<section class="light"><div class="wrap"><h2 style="text-align:center">Bagan Organisasi Sekolah</h2><p style="text-align:center">Nama dan jabatan mengikuti daftar pada halaman Profil Sekolah. Data ini tetap perlu diverifikasi sebelum digunakan sebagai informasi resmi.</p>
+<div class="org">
+<div class="box dark">YAYASAN / BADAN PENYELENGGARA<br><small>Nama belum dicantumkan</small></div>
+<div class="arrow">↓</div>
+<div class="box gold">KEPALA SEKOLAH<br><small style="color:#27354b">Dr. Arunika Pratama, M.Pd.</small></div>
+<div class="arrow">↓</div>
+<div class="row">
+  <div class="box">Wakil Kepala Sekolah<br><small style="color:#526176">Nadia Maheswari, M.Pd.</small></div>
+  <div class="box">Koordinator Kesiswaan<br><small style="color:#526176">Raka Adinata, S.Pd.</small></div>
+  <div class="box">Kepala Tata Usaha<br><small style="color:#526176">Sinta Rahmadani</small></div>
+</div>
+<div class="arrow">↓</div>
+<div class="row">
+  <div class="box">Guru Mata Pelajaran<br><small style="color:#526176">Dimas Wicaksana, S.Pd.<br>Clara Anindya, S.Pd.<br>Bima Satriya, S.Si.</small></div>
+  <div class="box">Guru Mata Pelajaran<br><small style="color:#526176">Intan Puspitasari, S.Pd.<br>Yoga Pranawa, S.Pd.<br>Aditama Nugraha, S.Psi.</small></div>
+  <div class="box">Layanan Sekolah<br><small style="color:#526176">Bagas Firmansyah — Pustakawan<br>Hendra Saputra — Sarana dan Prasarana</small></div>
+</div>
+<div class="arrow">↓</div>
+<div class="box dark">PESERTA DIDIK</div>
+</div></div></section>
+<section><div class="wrap"><h2>Tugas dan Tanggung Jawab</h2><div class="cards">
+<article class="card"><h3>🏫 Kepala Sekolah</h3><p><strong>Dr. Arunika Pratama, M.Pd.</strong></p><p>Memimpin penyelenggaraan pendidikan, mengoordinasikan guru dan karyawan, serta mengembangkan mutu pembelajaran.</p></article>
+<article class="card"><h3>📋 Wakil Kepala Sekolah</h3><p><strong>Nadia Maheswari, M.Pd.</strong></p><p>Membantu kepala sekolah mengoordinasikan kegiatan dan mendukung pelaksanaan program sekolah.</p></article>
+<article class="card"><h3>🎓 Koordinator Kesiswaan</h3><p><strong>Raka Adinata, S.Pd.</strong></p><p>Mendukung pembinaan karakter, kedisiplinan, organisasi siswa, dan kegiatan pengembangan diri.</p></article>
+<article class="card"><h3>🗂️ Kepala Tata Usaha</h3><p><strong>Sinta Rahmadani</strong></p><p>Mengoordinasikan administrasi, pengarsipan dokumen, dan layanan administratif sekolah.</p></article>
+<article class="card"><h3>📚 Guru Mata Pelajaran</h3><p><strong>Dimas Wicaksana, S.Pd.</strong><br><strong>Clara Anindya, S.Pd.</strong><br><strong>Bima Satriya, S.Si.</strong><br><strong>Intan Puspitasari, S.Pd.</strong><br><strong>Yoga Pranawa, S.Pd.</strong><br><strong>Aditama Nugraha, S.Psi.</strong></p><p>Mendampingi proses belajar, memberikan asesmen dan umpan balik, serta mendukung perkembangan akademik dan karakter siswa.</p></article>
+<article class="card"><h3>🛠️ Layanan Sekolah</h3><p><strong>Bagas Firmansyah — Pustakawan</strong><br><strong>Hendra Saputra — Staf Sarana dan Prasarana</strong></p><p>Mendukung layanan literasi, pengelolaan sumber belajar, dan kesiapan fasilitas sekolah.</p></article>
+</div></div></section>
+<section class="light"><div class="wrap"><h2>Kesiswaan dan Organisasi Siswa</h2><div class="grid">
+<article class="card"><div class="icon">🎓</div><h3>OSIS</h3><p>Wadah kepemimpinan, musyawarah, penyaluran aspirasi, dan pelaksanaan kegiatan siswa.</p></article>
+<article class="card"><div class="icon">🤝</div><h3>Belajar Bersama</h3><p>Siswa berdiskusi, bertukar gagasan, dan mengerjakan proyek kelompok untuk melatih komunikasi serta kerja sama.</p></article>
+<article class="card"><div class="icon">🌱</div><h3>Peduli Lingkungan</h3><p>Kegiatan kebersihan, penghijauan, dan pengelolaan sampah untuk membangun tanggung jawab.</p></article>
+<article class="card"><div class="icon">🔬</div><h3>Komunitas Sains</h3><p>Pengamatan, eksperimen sederhana, dan presentasi hasil penyelidikan ilmiah.</p></article>
+<article class="card"><div class="icon">🗣️</div><h3>Klub Bahasa</h3><p>Latihan berbicara, membaca, menulis, dan presentasi untuk meningkatkan kemampuan komunikasi.</p></article>
+<article class="card"><div class="icon">🎭</div><h3>Seni dan Budaya</h3><p>Wadah ekspresi seni, musik, pertunjukan, dan apresiasi budaya Indonesia.</p></article>
+</div></div></section>
+<div class="modal" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-box"><button class="modal-close" id="modalClose" aria-label="Tutup">&times;</button><span class="modal-tag">INFORMASI LENGKAP</span><h2 id="modalTitle"></h2><div id="modalBody"></div></div></div>
+<footer><h3>ALPHA CANIS MAJORIS</h3><p>International Junior High School</p><p>© <span id="year"></span> Alpha Canis Majoris</p></footer><button class="top" id="top">↑</button>
+<script>
+const topBtn=document.getElementById('top');
+document.getElementById('year').textContent=new Date().getFullYear();window.onscroll=()=>topBtn.style.display=scrollY>300?'block':'none';topBtn.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+const staff=[
+['Arunika Pratama, M.Pd.','Kepala Sekolah','pimpinan','AP'],['Nadia Maheswari, M.Pd.','Wakil Kepala Sekolah','pimpinan','NM'],['Raka Adinata, S.Pd.','Koordinator Kesiswaan','pimpinan','RA'],['Dimas Wicaksana, S.Pd.','Guru Matematika','guru','DW'],['Clara Anindya, S.Pd.','Guru Bahasa Inggris','guru','CA'],['Bima Satriya, S.Si.','Guru IPA','guru','BS'],['Intan Puspitasari, S.Pd.','Guru Bahasa Indonesia','guru','IP'],['Yoga Pranawa, S.Pd.','Guru PJOK','guru','YP'],['Aditama Nugraha, S.Psi.','Guru BK','guru','AN'],['Sinta Rahmadani','Kepala Tata Usaha','layanan','SR'],['Bagas Firmansyah','Pustakawan','layanan','BF'],['Hendra Saputra','Staf Sarana dan Prasarana','layanan','HS']
+];
+function render(){let q=document.getElementById('search').value.toLowerCase(),f=document.getElementById('filter').value;let rows=staff.filter(s=>(s[0]+' '+s[1]).toLowerCase().includes(q)&&(f==='semua'||s[2]===f));document.getElementById('people').innerHTML=rows.length?rows.map(s=>`<article class="card person"><div class="avatar">${s[3]}</div><div><h3>${s[0]}</h3><span class="role">${s[1]}</span><p>Anggota tim pendidikan Alpha Canis Majoris.</p></div></article>`).join(''):'<p>Tidak ada nama yang cocok.</p>'}
+
+document.getElementById('search').addEventListener('input',render);document.getElementById('filter').addEventListener('change',render);render();
+
+/* Detail interaktif: setiap kartu yang relevan dapat diklik untuk membaca dua paragraf. */
+const detailModal=document.getElementById('detailModal'), modalTitle=document.getElementById('modalTitle'),modalBody=document.getElementById('modalBody');
+function detailFor(title, subtitle=''){
+ const t=(title+' '+subtitle).toLowerCase();
+ if(t.includes('kepala sekolah')) return ['Kepala sekolah memimpin seluruh penyelenggaraan pendidikan dan memastikan kegiatan belajar mengajar berjalan sesuai visi, misi, serta aturan sekolah. Kepala sekolah juga menyusun arah pengembangan sekolah, mengoordinasikan guru dan karyawan, mengelola sumber daya, serta membangun komunikasi dengan orang tua dan masyarakat.','Dalam kesehariannya, kepala sekolah melakukan supervisi, mengevaluasi program, mendorong peningkatan mutu pembelajaran, dan menciptakan lingkungan yang aman serta inklusif. Keputusan diambil dengan mempertimbangkan kebutuhan siswa, profesionalitas tenaga pendidik, dan pengembangan karakter.'];
+ if(t.includes('wakil kepala sekolah')) return ['Wakil kepala sekolah membantu kepala sekolah mengoordinasikan program dan memastikan operasional sekolah berlangsung tertib. Tugasnya dapat mencakup bidang kurikulum, jadwal, kedisiplinan, koordinasi guru, serta tindak lanjut program akademik dan nonakademik.','Wakil kepala sekolah juga menjadi penghubung antartim agar informasi dan kebijakan tersampaikan dengan jelas. Bersama kepala sekolah, peran ini mendukung evaluasi kegiatan, penyelesaian kendala, dan peningkatan layanan pendidikan bagi siswa.'];
+ if(t.includes('kesiswaan')) return ['Koordinator kesiswaan mendampingi perkembangan siswa di luar pencapaian akademik, termasuk kedisiplinan, kepemimpinan, organisasi, dan kegiatan ekstrakurikuler. Ia membantu merancang kegiatan yang positif serta memastikan siswa memiliki ruang untuk menyampaikan aspirasi secara bertanggung jawab.','Koordinator kesiswaan bekerja sama dengan wali kelas, guru BK, pembina organisasi, dan orang tua ketika dibutuhkan. Tujuannya adalah membangun budaya sekolah yang tertib, peduli, menghargai perbedaan, serta memberi kesempatan bagi setiap siswa untuk berkembang.'];
+ if(t.includes('guru matematika')) return ['Guru Matematika membimbing siswa memahami konsep bilangan, pola, geometri, pengukuran, dan pemecahan masalah secara runtut. Pembelajaran dikembangkan melalui contoh kontekstual, latihan bertahap, diskusi, serta aktivitas yang melatih penalaran dan ketelitian.','Guru juga memantau kemajuan belajar melalui tugas dan asesmen, memberi umpan balik yang jelas, serta menyesuaikan bantuan sesuai kebutuhan siswa. Selain mengajarkan materi, guru Matematika menumbuhkan ketekunan, keberanian mencoba, dan kebiasaan menjelaskan alasan di balik suatu jawaban.'];
+ if(t.includes('guru bahasa inggris')) return ['Guru Bahasa Inggris membantu siswa mengembangkan keterampilan menyimak, berbicara, membaca, dan menulis. Kegiatan dapat berupa percakapan, membaca teks, presentasi, permainan bahasa, dan proyek sederhana yang menghubungkan bahasa dengan kehidupan sehari-hari.','Guru memberikan koreksi dan umpan balik secara membangun agar siswa berani berkomunikasi serta terus meningkatkan kemampuan. Pembelajaran juga menanamkan sikap terbuka terhadap budaya lain tanpa melupakan identitas dan nilai-nilai lokal.'];
+ if(t.includes('guru ipa')) return ['Guru IPA mengajak siswa mempelajari fenomena alam melalui pengamatan, pertanyaan, eksperimen yang aman, dan penalaran berbasis bukti. Materi sains dihubungkan dengan kehidupan sehari-hari agar siswa memahami konsep, bukan sekadar menghafal istilah.','Guru membimbing siswa mencatat hasil pengamatan, menyusun kesimpulan, dan mempresentasikan temuan dengan jujur. Melalui kegiatan tersebut, siswa dilatih berpikir kritis, menjaga keselamatan, serta menghargai lingkungan dan proses ilmiah.'];
+ if(t.includes('guru bahasa indonesia')) return ['Guru Bahasa Indonesia membimbing siswa mengembangkan kemampuan membaca kritis, menulis, berbicara, dan menyimak. Siswa belajar memahami berbagai jenis teks, menyusun gagasan secara terstruktur, serta menyampaikan pendapat dengan bahasa yang santun dan jelas.','Guru memberi arahan dalam proses merencanakan, menyusun, dan memperbaiki karya tulis maupun presentasi. Pembelajaran juga mendukung apresiasi sastra, literasi, dan penghargaan terhadap kekayaan bahasa Indonesia.'];
+ if(t.includes('guru pjok')) return ['Guru Pendidikan Jasmani, Olahraga, dan Kesehatan membimbing siswa memahami gerak dasar, kebugaran, permainan olahraga, serta kebiasaan hidup sehat. Kegiatan disusun dengan memperhatikan keselamatan, kemampuan siswa, kerja sama, dan sportivitas.','Guru memastikan aktivitas berlangsung tertib dan inklusif serta mengajarkan pentingnya pemanasan, penggunaan perlengkapan yang tepat, dan menghargai lawan maupun rekan satu tim. Penilaian memperhatikan proses, partisipasi, pemahaman, dan perkembangan siswa.'];
+ if(t.includes('guru bk')) return ['Guru Bimbingan dan Konseling mendampingi siswa dalam mengenali potensi, mengembangkan keterampilan sosial, mengelola tantangan belajar, serta merencanakan langkah pengembangan diri. Pendampingan dilakukan dengan pendekatan yang menghargai siswa dan menjaga kerahasiaan sesuai ketentuan yang berlaku.','Guru BK bekerja sama dengan wali kelas, orang tua, dan pihak terkait apabila diperlukan untuk membantu menciptakan lingkungan belajar yang aman. Perannya bukan sekadar menangani masalah, melainkan juga memberikan pencegahan, informasi, dan dukungan agar siswa dapat mengambil keputusan yang bertanggung jawab.'];
+ if(t.includes('tata usaha')) return ['Kepala tata usaha mengoordinasikan administrasi sekolah, pengarsipan dokumen, surat-menyurat, serta layanan administratif bagi siswa, orang tua, guru, dan pimpinan. Ketelitian dan keteraturan menjadi bagian penting agar informasi sekolah tersimpan dan mudah ditelusuri.','Bagian tata usaha juga membantu pengelolaan data dan kebutuhan operasional sesuai kebijakan sekolah serta menjaga kerahasiaan dokumen. Pelayanan yang ramah dan tepat waktu membantu kegiatan pendidikan berjalan lebih efektif.'];
+ if(t.includes('pustakawan')) return ['Pustakawan mengelola koleksi buku dan sumber belajar, membantu pengguna menemukan bahan bacaan, serta menjaga agar ruang perpustakaan nyaman dan tertib. Pustakawan juga dapat mendukung kegiatan literasi, rekomendasi bacaan, dan pengenalan sumber informasi yang tepercaya.','Melalui layanan peminjaman, pengelompokan koleksi, dan kegiatan membaca, pustakawan membantu siswa membangun kebiasaan belajar mandiri. Siswa juga diarahkan untuk menggunakan sumber informasi secara bertanggung jawab dan merawat fasilitas bersama.'];
+ if(t.includes('sarana')||t.includes('prasarana')) return ['Staf sarana dan prasarana membantu memastikan ruang kelas, peralatan, dan fasilitas sekolah tersedia serta berfungsi dengan baik. Tugasnya dapat meliputi pemeriksaan rutin, pencatatan kebutuhan, penataan perlengkapan, dan pelaporan kerusakan.','Perawatan fasilitas dilakukan dengan memperhatikan keselamatan, kebersihan, dan efisiensi penggunaan sumber daya. Dukungan ini membantu guru mengajar dengan nyaman dan siswa mengikuti kegiatan sekolah di lingkungan yang terawat.'];
+ if(t.includes('osis')) return ['OSIS menjadi wadah bagi siswa untuk belajar memimpin, bermusyawarah, menyampaikan aspirasi, dan merencanakan kegiatan yang bermanfaat. Melalui program kerja, siswa berlatih membagi tugas, mengatur waktu, berkomunikasi, serta mengambil keputusan bersama.','Dengan pendampingan pembina, OSIS dapat menyelenggarakan kegiatan sosial, kebersamaan, kreativitas, dan kepedulian lingkungan. Pengalaman ini menumbuhkan tanggung jawab, integritas, dan rasa memiliki terhadap komunitas sekolah.'];
+ if(t.includes('belajar bersama')) return ['Belajar bersama memberi kesempatan kepada siswa untuk bertukar gagasan, mendiskusikan materi, dan menyelesaikan tugas atau proyek secara berkelompok. Setiap anggota didorong untuk berkontribusi, mengajukan pertanyaan, dan membantu teman memahami konsep yang sedang dipelajari.','Kegiatan ini melatih komunikasi, kerja sama, pembagian peran, dan penghargaan terhadap pendapat yang berbeda. Guru dapat memberikan arahan agar diskusi tetap fokus dan setiap siswa tetap mengembangkan pemahaman mandiri.'];
+ if(t.includes('peduli lingkungan')) return ['Kegiatan peduli lingkungan mengajak siswa menjaga kebersihan, merawat tanaman, mengurangi sampah, dan menggunakan air serta energi secara bijak. Program dapat dilaksanakan melalui piket kelas, penghijauan, pemilahan sampah, dan kampanye kebiasaan ramah lingkungan.','Kegiatan yang dilakukan secara konsisten membantu siswa memahami bahwa lingkungan sekolah adalah tanggung jawab bersama. Siswa belajar bekerja sama dan mengubah kepedulian menjadi tindakan sederhana yang dapat diterapkan di rumah maupun masyarakat.'];
+ if(t.includes('komunitas sains')) return ['Komunitas sains menjadi ruang bagi siswa untuk mengeksplorasi pertanyaan tentang alam dan teknologi melalui pengamatan, eksperimen sederhana yang aman, serta proyek penyelidikan. Anggota belajar merumuskan pertanyaan, mengumpulkan data, dan membandingkan hasil dengan dugaan awal.','Kegiatan diakhiri dengan diskusi atau presentasi agar siswa dapat menjelaskan proses dan kesimpulan secara logis. Komunitas ini menumbuhkan rasa ingin tahu, ketelitian, kolaborasi, dan kejujuran dalam menggunakan bukti.'];
+ if(t.includes('klub bahasa')) return ['Klub bahasa membantu siswa berlatih berbicara, membaca, menulis, dan menyampaikan presentasi dalam suasana yang mendukung. Kegiatan bisa meliputi percakapan, permainan kosakata, membaca bersama, debat ringan, atau pembuatan karya tulis.','Anggota belajar menyampaikan gagasan dengan percaya diri dan menghargai perbedaan cara berkomunikasi. Latihan rutin membantu memperluas kosakata serta membangun keterampilan bahasa yang berguna untuk pembelajaran dan pergaulan.'];
+ if(t.includes('seni dan budaya')) return ['Kegiatan seni dan budaya menyediakan ruang bagi siswa untuk mengenal, mempraktikkan, dan mengapresiasi seni, musik, pertunjukan, serta tradisi Indonesia. Siswa dapat berlatih secara individu maupun kelompok sesuai minat dan kemampuan.','Selain mengembangkan kreativitas, kegiatan ini mengajarkan disiplin latihan, kerja sama, keberanian tampil, dan penghargaan terhadap keragaman budaya. Karya siswa dapat ditampilkan dalam acara sekolah sebagai bentuk apresiasi terhadap proses dan usaha mereka.'];
+ const clean=title.replace(/^[^\\w\\u00C0-\\u024F]+/,'');
+ return [`Bagian ${clean} merupakan salah satu unsur pendukung kehidupan pendidikan di Alpha Canis Majoris International Junior High School. Bagian ini dirancang untuk membantu siswa mengembangkan pengetahuan, karakter, keterampilan, dan pengalaman belajar dalam suasana yang tertib serta saling menghargai.`,`Pelaksanaannya mengutamakan partisipasi, tanggung jawab, dan kerja sama antara siswa, guru, serta komunitas sekolah. Informasi dan kegiatan pada bagian ini dapat disesuaikan dengan program resmi sekolah agar selalu relevan dengan kebutuhan warga sekolah.`];
+}
+function openDetail(title, subtitle=''){const paragraphs=detailFor(title,subtitle);modalTitle.textContent=title;modalBody.innerHTML='';paragraphs.forEach(p=>{const el=document.createElement('p');el.textContent=p;modalBody.appendChild(el)});detailModal.classList.add('show');document.body.style.overflow='hidden'}
+document.querySelectorAll('section .card').forEach(card=>{
+ const heading=card.querySelector('h3');if(!heading)return;
+ const title=heading.textContent.trim();
+ if(title==='Visi'||title==='Misi')return;
+ card.dataset.detail='true';card.setAttribute('tabindex','0');card.setAttribute('role','button');card.setAttribute('aria-label','Buka deskripsi lengkap: '+title);
+ const hint=document.createElement('div');hint.className='detail-hint';hint.textContent='Klik untuk membaca deskripsi lengkap →';card.appendChild(hint);
+ card.addEventListener('click',()=>openDetail(title,card.querySelector('.role')?.textContent||''));
+ card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDetail(title,card.querySelector('.role')?.textContent||'')}});
+});
+function closeDetail(){detailModal.classList.remove('show');document.body.style.overflow=''}
+document.getElementById('modalClose').addEventListener('click',closeDetail);
+detailModal.addEventListener('click',e=>{if(e.target===detailModal)closeDetail()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail()});
+
+</script>
+</body>
+</html>
